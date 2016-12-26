@@ -225,6 +225,8 @@ ff02::3 ip6-allhosts
 157.240.0.17	www.facebook.com
 157.240.0.17	m.facebook.com
 157.240.0.17	mqtt.facebook.com
+157.240.0.17	mqtt-mini.facebook.com
+157.240.0.17	business.facebook.com
 157.240.0.17	s-static.ak.facebook.com
 23.76.153.42	static.ak.facebook.com
 23.76.153.42	b.static.ak.facebook.com
@@ -597,6 +599,7 @@ ff02::3 ip6-allhosts
 61.91.161.217	jmoore-dot-android-experiments.appspot.com
 61.91.161.217	lfe-alpo-gm.appspot.com
 61.91.161.217	m-dot-betaspike.appspot.com
+61.91.161.217	joinjoaomgcd.appspot.com
 61.91.161.217	accounts.google.com.gi
 61.91.161.217	accounts.google.co.nz
 61.91.161.217	id.google.co.nz
@@ -2868,6 +2871,7 @@ ff02::3 ip6-allhosts
 64.233.188.188	gcm.googleapis.com
 64.233.188.188	gcm.l.google.com
 64.233.188.188	gcm-xmpp.googleapis.com
+61.91.161.217	joinjoaomgcd.appspot.com
 64.233.188.188	gcm-preprod.l.google.com
 64.233.188.188	gcm-preprod.googleapis.com
 # Google:gcm End
