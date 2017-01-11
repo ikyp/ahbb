@@ -9,6 +9,7 @@ ff02::2 ip6-allrouters
 ff02::3 ip6-allhosts
 
 
+
 # Apkpure Start
 104.20.82.194	apkpure.com
 104.20.82.194	a.apkpure.com
@@ -103,10 +104,6 @@ ff02::3 ip6-allhosts
 108.160.172.236	client.v.dropbox.com
 108.160.172.227	log.getdropbox.com
 # Dropbox End
-
-#TensorFlow start
-64.233.188.121	www.tensorflow.org
-#TensorFlow end
 
 # W3schools Start
 66.29.212.110	w3schools.com
@@ -360,8 +357,8 @@ ff02::3 ip6-allhosts
 61.91.161.217	clients4.google.com
 61.91.161.217	clients5.google.com
 61.91.161.217	clients6.google.com
-61.91.161.217   classroom.google.com
-61.91.161.217   classroom.google.ca
+61.91.161.217	classroom.google.com
+61.91.161.217	classroom.google.ca
 61.91.161.217	clouderrorreporting.clients6.google.com
 61.91.161.217	datastore.clients6.google.com
 61.91.161.217	contributor.google.com
@@ -375,7 +372,7 @@ ff02::3 ip6-allhosts
 61.91.161.217	encrypted-tbn3.google.com
 61.91.161.217	fi.google.com
 61.91.161.217	fit.google.com
-61.91.161.217   fiber.google.com
+61.91.161.217	fiber.google.com
 61.91.161.217	fonts.google.com
 61.91.161.217	goto.google.com
 61.91.161.217	gxc.google.com
@@ -568,7 +565,6 @@ ff02::3 ip6-allhosts
 61.91.161.217	officialandroid.blogspot.com
 61.91.161.217	android-developers.blogspot.com
 61.91.161.217	android-developers.blogspot.hk
-61.91.161.217	program-think.blogspot.com
 61.91.161.217	developers.googleblog.com
 61.91.161.217	books.google.com
 61.91.161.217	books.google.com.hk
@@ -656,6 +652,7 @@ ff02::3 ip6-allhosts
 61.91.161.217	docs9.google.com
 61.91.161.217	firebase.google.com
 61.91.161.217	material.google.com
+216.239.34.21	material.io
 61.91.161.217	writely.google.com
 61.91.161.217	upload.docs.google.com
 61.91.161.217	upload.drive.google.com
@@ -769,7 +766,7 @@ ff02::3 ip6-allhosts
 61.91.161.217	mobilemaps.clients.google.com
 61.91.161.217	music.google.com
 61.91.161.217	music.googleusercontent.com
-61.91.161.217   music-pa.clients6.google.com
+61.91.161.217	music-pa.clients6.google.com
 61.91.161.217	scholar.googleusercontent.com
 61.91.161.217	uploadsj.clients.google.com
 61.91.161.217	news.google.com
@@ -2364,6 +2361,7 @@ ff02::3 ip6-allhosts
 61.91.161.217	chromoting-host.talkgadget.google.com
 61.91.161.217	chromoting-client.talkgadget.google.com
 61.91.161.217	remoting-pa.googleapis.com
+61.91.161.217	personalsafety-pa.googleapis.com
 61.91.161.217	clientmetrics-pa.googleapis.com
 61.91.161.217	contacts.google.com
 61.91.161.217	youtube.com
@@ -2874,7 +2872,7 @@ ff02::3 ip6-allhosts
 64.233.188.188	gcm.googleapis.com
 64.233.188.188	gcm.l.google.com
 64.233.188.188	gcm-xmpp.googleapis.com
-61.91.161.217	joinjoaomgcd.appspot.com
+64.233.188.188	gcm-http.googleapis.com
 64.233.188.188	gcm-preprod.l.google.com
 64.233.188.188	gcm-preprod.googleapis.com
 # Google:gcm End
@@ -2966,6 +2964,7 @@ ff02::3 ip6-allhosts
 110.4.24.178	apps.twitter.com
 110.4.24.178	debates.twitter.com
 # Twitter End
+
 
 # Tumblr Start
 66.6.33.193	tumblr.com
