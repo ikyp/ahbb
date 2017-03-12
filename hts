@@ -171,6 +171,15 @@ ff02::3 ip6-allhosts
 103.245.222.101	cdn-images-2.medium.com
 # Medium end
 
+# MEGA Start
+31.216.147.135	eu.api.mega.co.nz
+154.53.224.130	eu.static.mega.co.nz
+117.18.237.188	g.cdn1.mega.co.nz
+154.53.224.150	mega.co.nz
+154.53.224.166	mega.nz
+31.216.147.130	w.api.mega.co.nz
+# MEGA End
+
 #nytimes for mobile Start
 170.149.159.135	nytimes.com
 52.84.219.212	cn.nytimes.com
@@ -3059,7 +3068,7 @@ ff02::3 ip6-allhosts
 104.244.43.40	cdn.syndication.twitter.com
 104.244.45.129	apps.twitter.com
 104.244.45.129	debates.twitter.com
-# Twitter En
+# Twitter End
 
 # Line Start
 104.121.240.61	scdn.line-apps.com
