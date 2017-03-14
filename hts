@@ -212,6 +212,9 @@ ff02::3 ip6-allhosts
 149.154.167.99	core.telegram.org
 149.154.167.99	macos.telegram.org
 149.154.167.120	web.telegram.org
+49.154.167.57	venus.web.telegram.org
+149.154.171.22	flora.web.telegram.org
+149.154.171.22	flora-1.web.telegram.org
 # telegram end
 
 # Yahoo Start
@@ -436,6 +439,9 @@ ff02::3 ip6-allhosts
 61.91.161.217	clients4.google.com
 61.91.161.217	clients5.google.com
 61.91.161.217	clients6.google.com
+61.91.161.217	client2.google.com
+61.91.161.217	client4.google.com
+61.91.161.217	client6.google.com
 61.91.161.217	classroom.google.com
 61.91.161.217	classroom.google.ca
 61.91.161.217	clouderrorreporting.clients6.google.com
@@ -463,6 +469,7 @@ ff02::3 ip6-allhosts
 61.91.161.217	cloudconfig.clients6.google.com
 61.91.161.217	gcmcontextualcampaign-pa.clients6.google.com
 61.91.161.217	mobilecrashreporting.clients6.google.com
+61.91.161.217	reminders-pa.clients6.google.com
 61.91.161.217	goto.google.com
 61.91.161.217	gxc.google.com
 61.91.161.217	get.google.com
@@ -991,6 +998,7 @@ ff02::3 ip6-allhosts
 61.91.161.217	maps.gstatic.com
 61.91.161.217	ssl.gstatic.com
 61.91.161.217	www.gstatic.com
+61.91.161.217	connectivitycheck.gstatic.com
 61.91.161.217	encrypted-tbn0.gstatic.com
 61.91.161.217	encrypted-tbn1.gstatic.com
 61.91.161.217	encrypted-tbn2.gstatic.com
@@ -1023,6 +1031,7 @@ ff02::3 ip6-allhosts
 61.91.161.217	bigcache.googleapis.com
 61.91.161.217	chart.googleapis.com
 61.91.161.217	content.googleapis.com
+61.91.161.217	growth-pa.googleapis.com
 61.91.161.217	khms0.googleapis.com
 61.91.161.217	khms1.googleapis.com
 61.91.161.217	maps.googleapis.com
