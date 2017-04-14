@@ -3140,7 +3140,7 @@ ff02::3 ip6-allhosts
 # Twitter Start
 104.244.45.246	twitter.com
 104.244.45.246	www.twitter.com
-185.45.5.47	t.co
+104.244.45.246	t.co
 104.244.45.246	api.twitter.com
 104.244.45.246	mobile.twitter.com
 104.244.45.246	support.twitter.com
