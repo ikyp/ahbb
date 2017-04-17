@@ -3142,6 +3142,7 @@ ff02::3 ip6-allhosts
 104.244.45.246	www.twitter.com
 104.244.45.246	t.co
 104.244.45.246	api.twitter.com
+104.244.45.246	caps.twitter.com
 104.244.45.246	mobile.twitter.com
 104.244.45.246	support.twitter.com
 104.244.45.246	upload.twitter.com
@@ -3197,6 +3198,7 @@ ff02::3 ip6-allhosts
 104.244.43.35	r.twimg.com
 104.244.43.35	ma.twimg.com
 104.244.43.35	pbs.twimg.com
+104.244.43.35	pbs-h2.twimg.com
 104.244.43.35	ton.twimg.com
 104.244.43.35	syndication.twimg.com
 104.244.43.35	syndication-o.twimg.com
