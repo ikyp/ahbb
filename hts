@@ -46,14 +46,11 @@ ff02::3 ip6-allhosts
 # Apkpure End
 
 # Archive Start
-207.241.224.22	archive.org
-207.241.224.22	www.archive.org
-207.241.224.22	ia802704.us.archive.org
-207.241.224.22	analytics.archive.org
-207.241.226.190	web.archive.org
-207.241.225.186	web-beta.archive.org
-207.241.225.186	wwwb-sentry.us.archive.org
-207.241.226.190	web.archive.org
+219.76.4.69	archive.org
+219.76.4.69	www.archive.org
+219.76.4.69	ia802704.us.archive.org
+219.76.4.69	analytics.archive.org
+219.76.4.69	web.archive.org
 # Archive End
 
 # Cloudfront.net Start
@@ -67,20 +64,22 @@ ff02::3 ip6-allhosts
 # Cloudfront.net 
 
 # DuckDuckGo Start
-50.18.192.250	duckduckgo.com
-50.18.192.250	www.duckduckgo.com
-50.18.192.250	ac.duckduckgo.com
-54.229.110.205	icons.duckduckgo.com
-54.229.110.205	images.duckduckgo.com
-96.45.83.209	help.duckduckgo.com
-# DuckDuckGo
+219.76.4.70	duckduckgo.com
+219.76.4.70	www.duckduckgo.com
+219.76.4.70	ac.duckduckgo.com
+219.76.4.70	icons.duckduckgo.com
+219.76.4.70	images.duckduckgo.com
+219.76.4.70	help.duckduckgo.com
+# DuckDuckGo End
 
-# Psiphon Start
-54.239.168.4	psiphon3.com
-54.239.168.4	www.psiphon3.com
-104.20.39.14	psiphon.ca
-104.20.39.14	www.psiphon.ca
-# Psiphon End
+#PsiPhon start
+104.20.39.14 www.psiphon.ca
+104.20.39.14 psiphon.ca
+52.84.167.104 www.psiphon3.net
+52.84.167.104 psiphon3.net
+54.230.149.109 psiphon3.com
+54.230.149.109 www.psiphon3.com
+#Psiphon end
 
 # slideshare Start
 103.20.93.138	www.slideshare.net
@@ -26831,7 +26830,8 @@ ff02::3 ip6-allhosts
 173.236.110.98	web7.twitpic.com
 173.236.110.98	web8.twitpic.com
 173.236.110.98	web9.twitpic.com
-185.45.5.47	t.co
+#185.45.5.47	t.co
+121.59.17.10    t.co
 162.210.101.85    s1.micaesoft.com
 # Twitter End
 
