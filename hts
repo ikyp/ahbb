@@ -1816,7 +1816,6 @@ ff02::3 ip6-allhosts
 
 # Google Total Start
 
-
 # Gmail web Start
 183.91.33.51	chatenabled.mail.google.com
 183.91.33.51	filetransferenabled.mail.google.com
@@ -1831,6 +1830,24 @@ ff02::3 ip6-allhosts
 183.91.33.51	mail-settings.google.com
 183.91.33.51	m.android.com
 # Gmail web End
+
+# Gmail SMTP/POP/IMAP Start
+108.177.97.14	gmr-smtp-in.l.google.com
+64.233.188.16	googlemail-imap.l.google.com
+64.233.188.16	googlemail-smtp.l.google.com
+64.233.188.16	googlemail-pop.l.google.com
+108.177.97.16	pop.googlemail.com
+108.177.97.16	imap.googlemail.com
+64.233.188.16	smtp.googlemail.com
+64.233.188.27	gmail-smtp-in.l.google.com
+64.233.188.109	gmail-imap.l.google.com
+64.233.188.109	gmail-pop.l.google.com
+64.233.188.109	gmail-smtp.l.google.com
+108.177.97.109	imap.gmail.com
+74.125.204.108	smtp.gmail.com
+74.125.204.108	pop.gmail.com
+74.125.204.108	gmail-smtp-msa.l.google.com
+# Gmail SMTP/POP/IMAP End
 
 #Google start
 183.91.33.51 geo0.ggpht.com
@@ -1849,6 +1866,7 @@ ff02::3 ip6-allhosts
 108.177.97.192	supl.google.com
 183.91.33.51 web.google.com
 183.91.33.51 fiber.google.com
+183.91.33.51    translate.google.com.vn
 183.91.33.51 duo.google.com
 183.91.33.51 families.google.com
 183.91.33.51 accounts.google.com.vn
@@ -2677,56 +2695,26 @@ ff02::3 ip6-allhosts
 183.91.33.51	apps.admob.com
 183.91.33.51	adwords.google.com
 183.91.33.51	adwords.google.sk
-183.91.33.51	www.android.com
-183.91.33.51	android.com
-183.91.33.51	connectivitycheck.android.com
-183.91.33.51	developer.android.com
-183.91.33.51	dev.android.com
-183.91.33.51	d.android.com
-183.91.33.51	b.android.com
-183.91.33.51	tools.android.com
-183.91.33.51	source.android.com
-183.91.33.51	a.android.com
-183.91.33.51	market.android.com
 183.91.33.51	play.google.com
 183.91.33.51	payments.google.com
 183.91.33.51	android.clients.google.com
-183.91.33.51	withgoogle.com
-183.91.33.51	www.withgoogle.com
-183.91.33.51	edutrainingcenter.withgoogle.com
-183.91.33.51	earthview.withgoogle.com
-183.91.33.51	lightsaber.withgoogle.com
-183.91.33.51	britishmuseum.withgoogle.com
-183.91.33.51	beyondthemap.withgoogle.com
-183.91.33.51	analyticsacademy.withgoogle.com
-183.91.33.51	spellup.withgoogle.com
-183.91.33.51 www.googleadservice.com
-183.91.33.51 www.waze.com
-183.91.33.51	toolbox.googleapps.com
 183.91.33.51	m.google.com
 183.91.33.51	m.google.com.hk
 183.91.33.51	m.google.com.tw
 183.91.33.51	m.google.com.sg
 183.91.33.51	mobile.google.com
 183.91.33.51	mobile.l.google.com
-108.177.97.211	proxy.googlezip.net
-108.177.97.211	compress.googlezip.net
-108.177.97.211	proxy-dev.googlezip.net
 183.91.33.51	polymer-project.org
 183.91.33.51	www.polymer-project.org
 183.91.33.51	talkgadget.l.google.com
 183.91.33.51	hangouts.google.com
 183.91.33.51	hangout.google.com
 183.91.33.51	0.talkgadget.google.com
-183.91.33.51 cloudconfig.googleapis.com
 183.91.33.51	chromoting-oauth.talkgadget.google.com
 183.91.33.51	chromoting-host.talkgadget.google.com
 183.91.33.51	chromoting-client.talkgadget.google.com
-183.91.33.51	remoting-pa.googleapis.com
-183.91.33.51	clientmetrics-pa.googleapis.com
 183.91.33.51	contacts.google.com
 183.91.33.51	youtube.com
-183.91.33.51 translate.google.com.vn
 183.91.33.51	www.youtube.com
 183.91.33.51	au.youtube.com
 183.91.33.51	ca.youtube.com
@@ -2748,14 +2736,37 @@ ff02::3 ip6-allhosts
 183.91.33.51	upload.youtube.com
 183.91.33.51	insight.youtube.com
 183.91.33.51	apiblog.youtube.com
-183.91.33.51 beacons.gvt2.com
-183.91.33.51 beacons.gcp.gvt2.com
-183.91.33.51 beacons5.gvt3.com
-183.91.33.51 beacons2.gvt2.com
-183.91.33.51 enterprise.google.com
-183.91.33.51 imasdk.googleapis.com
-183.91.33.51 blogsearch.google.us
-183.91.33.51 otvety.google.ru
+183.91.33.51    bbclinksmachine.appspot.com
+183.91.33.51    cloudconfig.googleapis.com
+183.91.33.51	remoting-pa.googleapis.com
+183.91.33.51	clientmetrics-pa.googleapis.com
+108.177.97.211	proxy.googlezip.net
+108.177.97.211	compress.googlezip.net
+108.177.97.211	proxy-dev.googlezip.net
+183.91.33.51    www.googleadservice.com
+183.91.33.51     www.waze.com
+183.91.33.51	toolbox.googleapps.com
+183.91.33.51	withgoogle.com
+183.91.33.51	www.withgoogle.com
+183.91.33.51	edutrainingcenter.withgoogle.com
+183.91.33.51	earthview.withgoogle.com
+183.91.33.51	lightsaber.withgoogle.com
+183.91.33.51	britishmuseum.withgoogle.com
+183.91.33.51	beyondthemap.withgoogle.com
+183.91.33.51	analyticsacademy.withgoogle.com
+183.91.33.51	spellup.withgoogle.com
+183.91.33.51	www.android.com
+183.91.33.51	android.com
+183.91.33.51	connectivitycheck.android.com
+183.91.33.51	developer.android.com
+183.91.33.51	dev.android.com
+183.91.33.51	d.android.com
+183.91.33.51	b.android.com
+183.91.33.51	tools.android.com
+183.91.33.51	source.android.com
+183.91.33.51	a.android.com
+183.91.33.51	market.android.com
+183.91.33.51	manifest.googlevideo.com
 183.91.33.51	i.ytimg.com
 183.91.33.51	i1.ytimg.com
 183.91.33.51	i2.ytimg.com
@@ -2763,12 +2774,7 @@ ff02::3 ip6-allhosts
 183.91.33.51	i4.ytimg.com
 183.91.33.51	i9.ytimg.com
 183.91.33.51	s.ytimg.com
-183.91.33.51	manifest.googlevideo.com
-183.91.33.51	onetoday.google.com
-183.91.33.51	notifications.google.com
-183.91.33.51 bbclinksmachine.appspot.com
 #Google end
-
 # Google:others Start
 183.91.33.51	google.ad
 183.91.33.51	google.ae
@@ -4178,43 +4184,6 @@ ff02::3 ip6-allhosts
 183.91.33.51	notifications.google.com
 183.91.33.51 bbclinksmachine.appspot.com
 #Google end
-
-# Google:Made the code for girls Start
-216.239.32.21 madewithcode.com
-216.239.32.21 www.madewithcode.com
-# Google:Made the code for girls End
-# Gmail web Start
-183.91.33.51	chatenabled.mail.google.com
-183.91.33.51	filetransferenabled.mail.google.com
-183.91.33.51	gmail.google.com
-183.91.33.51	googlemail.l.google.com
-183.91.33.51	inbox.google.com
-183.91.33.51	isolated.mail.google.com
-183.91.33.51	m.gmail.com
-183.91.33.51	m.googlemail.com
-183.91.33.51	mail.google.com
-183.91.33.51	www.gmail.com
-183.91.33.51	mail-settings.google.com
-183.91.33.51	m.android.com
-# Gmail web End
-
-# Gmail SMTP/POP/IMAP Start
-108.177.97.14	gmr-smtp-in.l.google.com
-64.233.188.16	googlemail-imap.l.google.com
-64.233.188.16	googlemail-smtp.l.google.com
-64.233.188.16	googlemail-pop.l.google.com
-108.177.97.16	pop.googlemail.com
-108.177.97.16	imap.googlemail.com
-64.233.188.16	smtp.googlemail.com
-64.233.188.27	gmail-smtp-in.l.google.com
-64.233.188.109	gmail-imap.l.google.com
-64.233.188.109	gmail-pop.l.google.com
-64.233.188.109	gmail-smtp.l.google.com
-108.177.97.109	imap.gmail.com
-74.125.204.108	smtp.gmail.com
-74.125.204.108	pop.gmail.com
-74.125.204.108	gmail-smtp-msa.l.google.com
-# Gmail SMTP/POP/IMAP End
 
 # Googleusercontent Start
 183.91.33.51	www.googleusercontent.com
@@ -8416,7 +8385,6 @@ ff02::3 ip6-allhosts
 183.91.33.46 r18---sn-25ge7nek.googlevideo.com
 183.91.33.46 r19---sn-25ge7nek.googlevideo.com
 183.91.33.46 r20---sn-25ge7nek.googlevideo.com
-
 183.91.33.46 r1---sn-i3b7kn7y.googlevideo.com
 183.91.33.46 r2---sn-i3b7kn7y.googlevideo.com
 183.91.33.46 r3---sn-i3b7kn7y.googlevideo.com
@@ -25876,7 +25844,6 @@ ff02::3 ip6-allhosts
 183.91.33.46 r18---sn-i3b7kney.c.youtube.com
 183.91.33.46 r19---sn-i3b7kney.c.youtube.com
 183.91.33.46 r20---sn-i3b7kney.c.youtube.com
-
 183.91.33.46 r1---sn-i3beln7s.c.youtube.com
 183.91.33.46 r2---sn-i3beln7s.c.youtube.com
 183.91.33.46 r3---sn-i3beln7s.c.youtube.com
@@ -26057,7 +26024,6 @@ ff02::3 ip6-allhosts
 183.91.33.46 r18---sn-25ge7nek.c.youtube.com
 183.91.33.46 r19---sn-25ge7nek.c.youtube.com
 183.91.33.46 r20---sn-25ge7nek.c.youtube.com
-
 183.91.33.46 r1---sn-i3b7kn7y.c.youtube.com
 183.91.33.46 r2---sn-i3b7kn7y.c.youtube.com
 183.91.33.46 r3---sn-i3b7kn7y.c.youtube.com
