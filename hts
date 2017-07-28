@@ -1816,7 +1816,6 @@ ff02::3 ip6-allhosts
 
 # Google Total Start
 
-
 # Gmail web Start
 183.91.33.51	chatenabled.mail.google.com
 183.91.33.51	filetransferenabled.mail.google.com
@@ -1831,6 +1830,24 @@ ff02::3 ip6-allhosts
 183.91.33.51	mail-settings.google.com
 183.91.33.51	m.android.com
 # Gmail web End
+
+# Gmail SMTP/POP/IMAP Start
+108.177.97.14	gmr-smtp-in.l.google.com
+64.233.188.16	googlemail-imap.l.google.com
+64.233.188.16	googlemail-smtp.l.google.com
+64.233.188.16	googlemail-pop.l.google.com
+108.177.97.16	pop.googlemail.com
+108.177.97.16	imap.googlemail.com
+64.233.188.16	smtp.googlemail.com
+64.233.188.27	gmail-smtp-in.l.google.com
+64.233.188.109	gmail-imap.l.google.com
+64.233.188.109	gmail-pop.l.google.com
+64.233.188.109	gmail-smtp.l.google.com
+108.177.97.109	imap.gmail.com
+74.125.204.108	smtp.gmail.com
+74.125.204.108	pop.gmail.com
+74.125.204.108	gmail-smtp-msa.l.google.com
+# Gmail SMTP/POP/IMAP End
 
 #Google start
 183.91.33.51 geo0.ggpht.com
@@ -1849,6 +1866,7 @@ ff02::3 ip6-allhosts
 108.177.97.192	supl.google.com
 183.91.33.51 web.google.com
 183.91.33.51 fiber.google.com
+183.91.33.51    translate.google.com.vn
 183.91.33.51 duo.google.com
 183.91.33.51 families.google.com
 183.91.33.51 accounts.google.com.vn
@@ -2677,56 +2695,26 @@ ff02::3 ip6-allhosts
 183.91.33.51	apps.admob.com
 183.91.33.51	adwords.google.com
 183.91.33.51	adwords.google.sk
-183.91.33.51	www.android.com
-183.91.33.51	android.com
-183.91.33.51	connectivitycheck.android.com
-183.91.33.51	developer.android.com
-183.91.33.51	dev.android.com
-183.91.33.51	d.android.com
-183.91.33.51	b.android.com
-183.91.33.51	tools.android.com
-183.91.33.51	source.android.com
-183.91.33.51	a.android.com
-183.91.33.51	market.android.com
 183.91.33.51	play.google.com
 183.91.33.51	payments.google.com
 183.91.33.51	android.clients.google.com
-183.91.33.51	withgoogle.com
-183.91.33.51	www.withgoogle.com
-183.91.33.51	edutrainingcenter.withgoogle.com
-183.91.33.51	earthview.withgoogle.com
-183.91.33.51	lightsaber.withgoogle.com
-183.91.33.51	britishmuseum.withgoogle.com
-183.91.33.51	beyondthemap.withgoogle.com
-183.91.33.51	analyticsacademy.withgoogle.com
-183.91.33.51	spellup.withgoogle.com
-183.91.33.51 www.googleadservice.com
-183.91.33.51 www.waze.com
-183.91.33.51	toolbox.googleapps.com
 183.91.33.51	m.google.com
 183.91.33.51	m.google.com.hk
 183.91.33.51	m.google.com.tw
 183.91.33.51	m.google.com.sg
 183.91.33.51	mobile.google.com
 183.91.33.51	mobile.l.google.com
-108.177.97.211	proxy.googlezip.net
-108.177.97.211	compress.googlezip.net
-108.177.97.211	proxy-dev.googlezip.net
 183.91.33.51	polymer-project.org
 183.91.33.51	www.polymer-project.org
 183.91.33.51	talkgadget.l.google.com
 183.91.33.51	hangouts.google.com
 183.91.33.51	hangout.google.com
 183.91.33.51	0.talkgadget.google.com
-183.91.33.51 cloudconfig.googleapis.com
 183.91.33.51	chromoting-oauth.talkgadget.google.com
 183.91.33.51	chromoting-host.talkgadget.google.com
 183.91.33.51	chromoting-client.talkgadget.google.com
-183.91.33.51	remoting-pa.googleapis.com
-183.91.33.51	clientmetrics-pa.googleapis.com
 183.91.33.51	contacts.google.com
 183.91.33.51	youtube.com
-183.91.33.51 translate.google.com.vn
 183.91.33.51	www.youtube.com
 183.91.33.51	au.youtube.com
 183.91.33.51	ca.youtube.com
@@ -2748,14 +2736,37 @@ ff02::3 ip6-allhosts
 183.91.33.51	upload.youtube.com
 183.91.33.51	insight.youtube.com
 183.91.33.51	apiblog.youtube.com
-183.91.33.51 beacons.gvt2.com
-183.91.33.51 beacons.gcp.gvt2.com
-183.91.33.51 beacons5.gvt3.com
-183.91.33.51 beacons2.gvt2.com
-183.91.33.51 enterprise.google.com
-183.91.33.51 imasdk.googleapis.com
-183.91.33.51 blogsearch.google.us
-183.91.33.51 otvety.google.ru
+183.91.33.51    bbclinksmachine.appspot.com
+183.91.33.51    cloudconfig.googleapis.com
+183.91.33.51	remoting-pa.googleapis.com
+183.91.33.51	clientmetrics-pa.googleapis.com
+108.177.97.211	proxy.googlezip.net
+108.177.97.211	compress.googlezip.net
+108.177.97.211	proxy-dev.googlezip.net
+183.91.33.51    www.googleadservice.com
+183.91.33.51     www.waze.com
+183.91.33.51	toolbox.googleapps.com
+183.91.33.51	withgoogle.com
+183.91.33.51	www.withgoogle.com
+183.91.33.51	edutrainingcenter.withgoogle.com
+183.91.33.51	earthview.withgoogle.com
+183.91.33.51	lightsaber.withgoogle.com
+183.91.33.51	britishmuseum.withgoogle.com
+183.91.33.51	beyondthemap.withgoogle.com
+183.91.33.51	analyticsacademy.withgoogle.com
+183.91.33.51	spellup.withgoogle.com
+183.91.33.51	www.android.com
+183.91.33.51	android.com
+183.91.33.51	connectivitycheck.android.com
+183.91.33.51	developer.android.com
+183.91.33.51	dev.android.com
+183.91.33.51	d.android.com
+183.91.33.51	b.android.com
+183.91.33.51	tools.android.com
+183.91.33.51	source.android.com
+183.91.33.51	a.android.com
+183.91.33.51	market.android.com
+183.91.33.51	manifest.googlevideo.com
 183.91.33.51	i.ytimg.com
 183.91.33.51	i1.ytimg.com
 183.91.33.51	i2.ytimg.com
@@ -2763,12 +2774,7 @@ ff02::3 ip6-allhosts
 183.91.33.51	i4.ytimg.com
 183.91.33.51	i9.ytimg.com
 183.91.33.51	s.ytimg.com
-183.91.33.51	manifest.googlevideo.com
-183.91.33.51	onetoday.google.com
-183.91.33.51	notifications.google.com
-183.91.33.51 bbclinksmachine.appspot.com
 #Google end
-
 # Google:others Start
 183.91.33.51	google.ad
 183.91.33.51	google.ae
@@ -4178,43 +4184,6 @@ ff02::3 ip6-allhosts
 183.91.33.51	notifications.google.com
 183.91.33.51 bbclinksmachine.appspot.com
 #Google end
-
-# Google:Made the code for girls Start
-216.239.32.21 madewithcode.com
-216.239.32.21 www.madewithcode.com
-# Google:Made the code for girls End
-# Gmail web Start
-183.91.33.51	chatenabled.mail.google.com
-183.91.33.51	filetransferenabled.mail.google.com
-183.91.33.51	gmail.google.com
-183.91.33.51	googlemail.l.google.com
-183.91.33.51	inbox.google.com
-183.91.33.51	isolated.mail.google.com
-183.91.33.51	m.gmail.com
-183.91.33.51	m.googlemail.com
-183.91.33.51	mail.google.com
-183.91.33.51	www.gmail.com
-183.91.33.51	mail-settings.google.com
-183.91.33.51	m.android.com
-# Gmail web End
-
-# Gmail SMTP/POP/IMAP Start
-108.177.97.14	gmr-smtp-in.l.google.com
-64.233.188.16	googlemail-imap.l.google.com
-64.233.188.16	googlemail-smtp.l.google.com
-64.233.188.16	googlemail-pop.l.google.com
-108.177.97.16	pop.googlemail.com
-108.177.97.16	imap.googlemail.com
-64.233.188.16	smtp.googlemail.com
-64.233.188.27	gmail-smtp-in.l.google.com
-64.233.188.109	gmail-imap.l.google.com
-64.233.188.109	gmail-pop.l.google.com
-64.233.188.109	gmail-smtp.l.google.com
-108.177.97.109	imap.gmail.com
-74.125.204.108	smtp.gmail.com
-74.125.204.108	pop.gmail.com
-74.125.204.108	gmail-smtp-msa.l.google.com
-# Gmail SMTP/POP/IMAP End
 
 # Googleusercontent Start
 183.91.33.51	www.googleusercontent.com
@@ -8416,7 +8385,6 @@ ff02::3 ip6-allhosts
 183.91.33.46 r18---sn-25ge7nek.googlevideo.com
 183.91.33.46 r19---sn-25ge7nek.googlevideo.com
 183.91.33.46 r20---sn-25ge7nek.googlevideo.com
-
 183.91.33.46 r1---sn-i3b7kn7y.googlevideo.com
 183.91.33.46 r2---sn-i3b7kn7y.googlevideo.com
 183.91.33.46 r3---sn-i3b7kn7y.googlevideo.com
@@ -25876,7 +25844,6 @@ ff02::3 ip6-allhosts
 183.91.33.46 r18---sn-i3b7kney.c.youtube.com
 183.91.33.46 r19---sn-i3b7kney.c.youtube.com
 183.91.33.46 r20---sn-i3b7kney.c.youtube.com
-
 183.91.33.46 r1---sn-i3beln7s.c.youtube.com
 183.91.33.46 r2---sn-i3beln7s.c.youtube.com
 183.91.33.46 r3---sn-i3beln7s.c.youtube.com
@@ -26057,7 +26024,6 @@ ff02::3 ip6-allhosts
 183.91.33.46 r18---sn-25ge7nek.c.youtube.com
 183.91.33.46 r19---sn-25ge7nek.c.youtube.com
 183.91.33.46 r20---sn-25ge7nek.c.youtube.com
-
 183.91.33.46 r1---sn-i3b7kn7y.c.youtube.com
 183.91.33.46 r2---sn-i3b7kn7y.c.youtube.com
 183.91.33.46 r3---sn-i3b7kn7y.c.youtube.com
@@ -30233,66 +30199,66 @@ ff02::3 ip6-allhosts
 # Google Total End
 
 # Twitter Start
-121.59.17.10	tweetdeck.com
-121.59.17.10	api.tweetdeck.com
-121.59.17.10	web.tweetdeck.com
-121.59.17.10	www.tweetdeck.com
-121.59.17.10	downloads.tweetdeck.com
+121.59.17.41	tweetdeck.com
+121.59.17.41	api.tweetdeck.com
+121.59.17.41	web.tweetdeck.com
+121.59.17.41	www.tweetdeck.com
+121.59.17.41	downloads.tweetdeck.com
 104.244.43.17	cdn.syndication.twimg.com
 104.244.43.40	cdn.syndication.twitter.com
-121.59.17.10	a0.twimg.com
-121.59.17.10	a1.twimg.com
-121.59.17.10	a2.twimg.com
-121.59.17.10	a3.twimg.com
-121.59.17.10	a4.twimg.com
-121.59.17.10	a5.twimg.com
-121.59.17.10	video.twimg.com
-121.59.17.10	abs.twimg.com
-121.59.17.10	g.twimg.com
-121.59.17.10	o.twimg.com
-121.59.17.10	p.twimg.com
-121.59.17.10	r.twimg.com
-121.59.17.10	ma.twimg.com
-121.59.17.10	pbs.twimg.com
-121.59.17.10	ton.twimg.com
-121.59.17.10	syndication.twimg.com
-121.59.17.10	syndication-o.twimg.com
-121.59.17.10	image-proxy-origin.twimg.com
-121.59.17.10	twitter.com
-121.59.17.10	www.twitter.com
-121.59.17.10	api.twitter.com
-121.59.17.10	mobile.twitter.com
-121.59.17.10	support.twitter.com
-121.59.17.10	upload.twitter.com
-121.59.17.10	tweetdeck.twitter.com
-121.59.17.10	syndication.twitter.com
-121.59.17.10	platform.twitter.com
-121.59.17.10	about.twitter.com
-121.59.17.10	blog.twitter.com
-121.59.17.10	betastream.twitter.com
-121.59.17.10	dev.twitter.com
-121.59.17.10	pic.twitter.com
-121.59.17.10    pay.twitter.com
-121.59.17.10	search.twitter.com
-121.59.17.10	status.twitter.com
-121.59.17.10	assets0.twitter.com
-121.59.17.10	assets1.twitter.com
-121.59.17.10	assets2.twitter.com
-121.59.17.10	assets3.twitter.com
-121.59.17.10	assets4.twitter.com
-121.59.17.10	static.twitter.com
-121.59.17.10	help.twitter.com
-121.59.17.10	ton.twitter.com
-121.59.17.10	s.twitter.com
-121.59.17.10	analytics.twitter.com
-121.59.17.10	urls-real.api.twitter.com
-121.59.17.10	userstream.twitter.com
-121.59.17.10	sitestream.twitter.com
-121.59.17.10	stream.twitter.com
-121.59.17.10	tdweb.twitter.com
-121.59.17.10	apps.twitter.com
-121.59.17.10	debates.twitter.com
-121.59.17.10   www.twitter.com.micae.top
+121.59.17.41	a0.twimg.com
+121.59.17.41	a1.twimg.com
+121.59.17.41	a2.twimg.com
+121.59.17.41	a3.twimg.com
+121.59.17.41	a4.twimg.com
+121.59.17.41	a5.twimg.com
+121.59.17.41	video.twimg.com
+121.59.17.41	abs.twimg.com
+121.59.17.41	g.twimg.com
+121.59.17.41	o.twimg.com
+121.59.17.41	p.twimg.com
+121.59.17.41	r.twimg.com
+121.59.17.41	ma.twimg.com
+121.59.17.41	pbs.twimg.com
+121.59.17.41	ton.twimg.com
+121.59.17.41	syndication.twimg.com
+121.59.17.41	syndication-o.twimg.com
+121.59.17.41	image-proxy-origin.twimg.com
+121.59.17.41	twitter.com
+121.59.17.41	www.twitter.com
+121.59.17.41	api.twitter.com
+121.59.17.41	mobile.twitter.com
+121.59.17.41	support.twitter.com
+121.59.17.41	upload.twitter.com
+121.59.17.41	tweetdeck.twitter.com
+121.59.17.41	syndication.twitter.com
+121.59.17.41	platform.twitter.com
+121.59.17.41	about.twitter.com
+121.59.17.41	blog.twitter.com
+121.59.17.41	betastream.twitter.com
+121.59.17.41	dev.twitter.com
+121.59.17.41	pic.twitter.com
+121.59.17.41    pay.twitter.com
+121.59.17.41	search.twitter.com
+121.59.17.41	status.twitter.com
+121.59.17.41	assets0.twitter.com
+121.59.17.41	assets1.twitter.com
+121.59.17.41	assets2.twitter.com
+121.59.17.41	assets3.twitter.com
+121.59.17.41	assets4.twitter.com
+121.59.17.41	static.twitter.com
+121.59.17.41	help.twitter.com
+121.59.17.41	ton.twitter.com
+121.59.17.41	s.twitter.com
+121.59.17.41	analytics.twitter.com
+121.59.17.41	urls-real.api.twitter.com
+121.59.17.41	userstream.twitter.com
+121.59.17.41	sitestream.twitter.com
+121.59.17.41	stream.twitter.com
+121.59.17.41	tdweb.twitter.com
+121.59.17.41	apps.twitter.com
+121.59.17.41	debates.twitter.com
+121.59.17.41   www.twitter.com.micae.top
 209.17.68.209    oi40.tinypic.com
 209.17.68.209    oi41.tinypic.com
 209.17.68.209    oi42.tinypic.com
@@ -30322,8 +30288,7 @@ ff02::3 ip6-allhosts
 173.236.110.98	web7.twitpic.com
 173.236.110.98	web8.twitpic.com
 173.236.110.98	web9.twitpic.com
-#185.45.5.47	t.co
-121.59.17.10    t.co
+121.59.17.41	t.co
 162.210.101.85    s1.micaesoft.com
 # Twitter End
 
